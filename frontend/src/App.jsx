@@ -46,7 +46,7 @@ function App() {
         isViewingCandidate={!!selectedCandidate} 
       />
 
-      <main>
+      <main className="min-h-screen">
         {/* 1. Admin Logic */}
         {isAdminLoggedIn ? (
           <Admin onLogout={handleLogout} />
