@@ -17,7 +17,7 @@ const Hero = ({ candidate, onBack }) => {
         <div className="grid items-center gap-10 md:grid-cols-[minmax(240px,360px)_1fr]">
           <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl bg-indigo-500/40 shadow-2xl ring-4 ring-white/20">
             <img
-              src={`http://localhost:3000${candidate.image}`}
+              src={`https://voteprofile.onrender.com${candidate.image}`}
               alt={candidate.name}
               className="aspect-[4/5] h-full w-full object-cover object-top"
             />
