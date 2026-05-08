@@ -18,7 +18,7 @@ const Team = ({ onSelectCandidate }) => {
     fetchCandidates()
   }, [])
 
-  if (loading) return <div className="text-center py-20 text-4xl text-red-400/50">Loading Future of AEC...</div>
+  if (loading) return <div className="text-center py-20 text-4xl text-indigo-600">Loading Future of AEC...</div>
 
   return (
     <section id="team" className="py-16 bg-white">
