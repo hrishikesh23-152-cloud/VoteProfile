@@ -8,7 +8,7 @@ const Team = ({ onSelectCandidate }) => {
   useEffect(() => {
     const fetchCandidates = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/candidates')
+        const response = await axios.get('https://voteprofile.onrender.com/api/candidates')
         setCandidates(response.data)
       } catch (error) {
         console.error('Error fetching candidates:', error)
