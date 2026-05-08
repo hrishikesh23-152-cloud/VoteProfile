@@ -36,7 +36,7 @@ const Team = ({ onSelectCandidate }) => {
             >
               <div className="aspect-[3/4] w-full overflow-hidden rounded-lg bg-slate-100 mb-5">
                 <img
-                  src={`http://localhost:3000${candidate.image}`}
+                  src={`https://voteprofile.onrender.com${candidate.image}`}
                   alt={candidate.name}
                   className="h-full w-full object-cover object-top transition-transform duration-300 hover:scale-105"
                   loading="lazy"
