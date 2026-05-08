@@ -21,7 +21,7 @@ const Feedback = () => {
     e.preventDefault()
     setIsSubmitting(true)
     try {
-      await axios.post('http://localhost:3000/api/feedback', formData)
+      await axios.post('https://voteprofile.onrender.com/api/feedback', formData)
       setSubmitted(true)
       setFormData({ name: '', email: '', message: '' })
     } catch (error) {
