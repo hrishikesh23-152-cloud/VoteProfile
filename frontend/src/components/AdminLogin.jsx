@@ -13,7 +13,7 @@ const AdminLogin = ({ onSuccess, onClose }) => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:3000/api/admin/login', { 
+      const response = await axios.post('https://voteprofile.onrender.com/api/admin/login', { 
         username: username.trim(), 
         password 
       });
