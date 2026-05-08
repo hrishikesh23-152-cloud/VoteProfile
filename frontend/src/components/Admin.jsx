@@ -19,7 +19,7 @@ const Admin = ({ onLogout }) => {
     }
 
     try {
-      const response = await axios.get('http://localhost:3000/api/admin/feedbacks', {
+      const response = await axios.get('https://voteprofile.onrender.com/api/admin/feedbacks', {
         headers: { Authorization: `Bearer ${token}` } // Added Bearer prefix
       });
       setFeedbacks(response.data);
